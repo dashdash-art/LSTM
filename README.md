@@ -1,1 +1,3 @@
 # LSTM
+### **LSTM Model Summary**  
+The LSTM (Long Short-Term Memory) model was implemented to predict soil temperature over the next 6 months with an accuracy exceeding 95%. The model processes time-series data using past 24-hour weather conditions to forecast future temperature values. It consists of two LSTM layers with 50 units each, followed by fully connected dense layers for prediction. The model was trained using the Adam optimizer and Mean Squared Error (MSE) loss function. After 10 epochs of training, it achieved a **Mean Absolute Error (MAE) of 0.0252**, corresponding to an accuracy of approximately **97.48%**, surpassing the required threshold.
